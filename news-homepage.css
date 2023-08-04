@@ -145,7 +145,7 @@ main{
    font-family: Inter-ExtraBold;
 }
 
-.section-text h3{
+.section-text h2{
    margin: 1.5em 0 0 0;
    color: hsl(36, 100%, 99%);
    font-family: Inter-Bold;
@@ -191,7 +191,7 @@ hr{
     font-family: Inter-ExtraBold;
 }
 
-.text h3{
+.text h2{
    margin: 15px 0 0;
    font-size: 1rem;
    font-family: Inter-ExtraBold;
@@ -204,7 +204,7 @@ hr{
    font-family: Inter-Regular;
 }
 
-footer { font-size: 0.8rem; text-align: center; text-transform: uppercase;}
+footer { font-size: 0.8rem; text-align: center;}
 footer a { color: hsl(228, 45%, 44%);}
 
 
@@ -342,7 +342,7 @@ nav{
    font-size: 2rem;
 }
 
-.text h3{
+.text h2{
    margin: 10px 0 0;
 
 }
