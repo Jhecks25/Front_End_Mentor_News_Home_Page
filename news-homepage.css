@@ -114,6 +114,7 @@ main{
    margin: 20px 0 40px 0;
    border-style: none;
    color: hsl(36, 100%, 99%);
+   cursor: pointer;
    letter-spacing: 0.4rem;
    text-transform: uppercase;
    background-color: hsl(5, 85%, 63%);
