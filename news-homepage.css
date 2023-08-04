@@ -1,0 +1,355 @@
+*{
+  margin: 0;
+  padding: 0; 
+}
+
+@font-face{
+   src: url("assets/fonts/static/inter-bold.ttf");
+   font-family: Inter-Bold;
+}
+
+@font-face{
+   src: url("assets/fonts/static/inter-ExtraBold.ttf");
+   font-family: Inter-ExtraBold;
+}
+
+@font-face{
+   src: url("assets/fonts/static/inter-Regular.ttf");
+   font-family: Inter-Regular;
+}
+
+@font-face{
+   src: url("assets/fonts/static/Inter-VariableFont_slnt,wght.ttf");
+   font-family: Inter-Variable;
+}
+
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+body{
+   flex-flow: row wrap;
+   min-width: 100vw;
+   min-height: 100vh;
+   /*background-color: yellow;*/
+}
+
+nav, .main-page{
+   display: flex;
+   flex-flow: row wrap;
+}
+
+nav{
+    position: relative;
+   height: 6em;
+   justify-content: space-between;
+   /*background-color: green;*/
+}
+
+nav svg{
+   margin: 2rem 0;
+}
+
+.svg-file{
+   margin: 3rem 0;
+}
+
+.dropdown-menu{
+   display: none;
+   min-width: 80vw;
+   min-height: 150vh;
+   position: absolute;
+   left: 40%;
+   margin-top: 0;
+   background-color: hsl(36, 100%, 99%);
+}
+
+.dropdown-menu > ul > li{
+   padding: 10px;
+   list-style-type: none;
+   line-height: 2rem;
+   font-size: 1.5rem;
+}
+
+.dropdown-menu svg{
+position: relative;
+left: 60%;
+}
+
+main{
+   width: 90vw;
+   height: 100vh;
+}
+
+.first-section{
+   font-family: Inter-Regular;
+}
+
+.first-image{
+   width: 100%;
+   height: 55vh;
+}
+
+.first-flex > h1{
+   margin-top: 20px;
+   font-size: 2.8rem;
+   font-family: Inter-ExtraBold;
+}
+
+.first-section img, h1, p, button{
+   margin-top: 0.1em;
+}
+
+.first-section p{
+   color: hsl(236, 13%, 42%);
+   font-size: 0.9rem;
+   line-height: 1.5rem;
+}
+
+.first-section button{
+   width: 50vw;
+   height: 10vh;
+   margin: 20px 0 40px 0;
+   border-style: none;
+   color: hsl(36, 100%, 99%);
+   letter-spacing: 0.4rem;
+   text-transform: uppercase;
+   background-color: hsl(5, 85%, 63%);
+}
+
+.second-section{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.second-section{
+   min-width: 90vw;
+   min-height: 95vh;
+   margin-top: 1em;
+   background-color: hsl(240, 100%, 5%);
+}
+
+.section-text{
+   width: 80vw;
+   height: 75vh;
+   /*margin-top: 1em*/;
+   line-height: 1.8rem
+}
+
+.section-text h1{
+   color: hsl(35, 77%, 62%);
+   font-size: 2rem;
+   font-family: Inter-ExtraBold;
+}
+
+.section-text h3{
+   margin: 1.5em 0 0 0;
+   color: hsl(36, 100%, 99%);
+   font-family: Inter-Bold;
+}
+
+.section-text p{
+   color: hsl(233, 8%, 79%);
+   letter-spacing: 0.1px;
+   font-size: 0.9rem;
+   font-family: Inter-Regular;
+}
+
+hr{
+   margin: 2em 0;
+}
+
+ .sub-page{
+   margin-top: 4em;
+ }
+
+ .sub-section{
+   display: flex;
+ }
+
+.image-container{
+   width: 30vw;
+   margin-bottom: 20px;
+}
+
+.image-container img{
+   width: 26vw; 
+}
+
+.text{
+   width: 60vw;
+   margin-left: 1em;
+   line-height: 1.5rem;  
+}
+
+.text h1{
+   font-size: 2rem;
+   color: hsl(233, 8%, 79%);
+    font-family: Inter-ExtraBold;
+}
+
+.text h3{
+   margin: 15px 0 0;
+   font-size: 1rem;
+   font-family: Inter-ExtraBold;
+}
+
+.text p{
+   color: hsl(236, 13%, 42%);
+   margin: 15px 0;
+   font-size: 0.9rem;
+   font-family: Inter-Regular;
+}
+
+footer { font-size: 0.8rem; text-align: center; text-transform: uppercase;}
+footer a { color: hsl(228, 45%, 44%);}
+
+
+
+@media screen and (min-width: 768px) {
+
+body{
+   flex-flow: nowrap;
+}
+
+nav{
+    position: relative;
+   height: 6em;
+   justify-content: space-between;
+   /*background-color: green;*/
+}
+
+.svg-close{
+   display: none;
+}
+
+.svg-file{
+   display: none;
+}
+
+.dropdown-menu{
+   display: flex;
+   min-width: 54vw;
+   min-height: 15vh;
+   background-color: inherit;
+}
+
+.dropdown-menu ul{
+   display: flex;
+   justify-content: flex-end;
+   width: 100%;
+}
+
+.dropdown-menu > ul > li{
+   display: inline-block;
+   margin: 0;
+   padding: 1em;
+   list-style-type: none;
+   line-height: 5rem;
+   font-size: 1.3rem;
+   color: hsl(236, 13%, 42%);
+   font-family: Inter-Variable;
+}
+
+.main-page{
+   display: flex;
+   flex-flow: nowrap;
+   justify-content: space-around;
+   padding-top: 2em;
+}
+
+.first-section{
+   width: 65vw;
+}
+.first-image{
+   width: 97%;
+   height: 50vh;
+}
+
+.first-flex{
+   display: flex;
+   width: 97%;
+   background-color: ;
+
+}
+
+.first-section-text{
+   width: 95%;
+   padding-top: 1.5em;
+   /*background-color: gray;*/
+}
+
+.first-flex > h1{
+  
+   font-size: 3.7rem;
+   /*background-color: gray;*/
+}
+
+.first-section-text p{
+   width: 30vw;
+   font-size: 1.1rem;
+}
+
+.first-section button{
+   width: 15vw;
+   height: 8vh;
+   margin: 40px 0 0px 0;
+   letter-spacing: 0.3rem;
+}
+
+.second-section{
+   min-width: 30vw;
+   min-height: 20vh;
+   margin-top: 0;
+}
+   
+.section-text{
+   width: 25vw;
+   height: 75vh;
+   line-height: 1.8rem;
+   background-color: ;
+}
+
+.sub-page{
+   display: flex;
+   margin-top: 4em;
+   background-color:;
+   }
+
+.sub-section{
+   display: flex;
+ }
+
+.image-container{
+   width: 10vw;
+}
+
+.image-container img{
+   width: 8vw; 
+}
+
+.text{
+   width: 18vw;
+   margin: 0 2em 0 0;
+   font-size: 0.9rem;
+   background-color: ;
+}
+
+.text h1{
+   font-size: 2rem;
+}
+
+.text h3{
+   margin: 10px 0 0;
+
+}
+
+.text p{
+   margin: 10px 0;
+   font-size: 1.1rem;
+}
+
+}
