@@ -48,7 +48,7 @@ nav{
    /*background-color: green;*/
 }
 
-nav svg{
+nav .svg{
    margin: 2rem 0;
 }
 
@@ -73,7 +73,7 @@ nav svg{
    font-size: 1.5rem;
 }
 
-.dropdown-menu svg{
+.dropdown-menu .svg{
 position: relative;
 left: 60%;
 }
